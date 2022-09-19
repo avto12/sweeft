@@ -73,7 +73,7 @@
 
                <div class="swiper-slide card-box">
                   <div class="py-4 px-4">
-                     <img class="card-img-top service-img" src="./img/icons/Keyboard.svg" alt="Digital Product Design">
+                     <img class="card-img-top service-img" src="./img/icons/Design.svg" alt="Digital Product Design">
                      <div class="card-body p-0">
                         <h4 class="card-title py-4">Digital Product Design</h4>
                         <p class="card-text">
@@ -85,7 +85,7 @@
 
                <div class="swiper-slide card-box">
                   <div class="py-4 px-4">
-                     <img class="card-img-top service-img" src="./img/icons/Keyboard.svg" alt="Consulting & Analysis">
+                     <img class="card-img-top service-img" src="./img/icons/Light.svg" alt="Consulting & Analysis">
                      <div class="card-body p-0">
                         <h4 class="card-title py-4">Consulting & Analysis</h4>
                         <p class="card-text">
@@ -97,7 +97,7 @@
 
                <div class="swiper-slide card-box">
                   <div class="py-4 px-4">
-                     <img class="card-img-top service-img" src="./img/icons/Keyboard.svg" alt="Talent Outsourcing">
+                     <img class="card-img-top service-img" src="./img/icons/Globe.svg" alt="Talent Outsourcing">
                      <div class="card-body p-0">
                         <h4 class="card-title py-4">
                            Talent
