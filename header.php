@@ -60,7 +60,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link my-nav-link contact-page btn-main btntwo" href="#">contact</a>
+              <a class="nav-link my-nav-link btn-main" href="#">contact</a>
             </li>
 
           </ul>

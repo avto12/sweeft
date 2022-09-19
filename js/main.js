@@ -152,13 +152,6 @@ function bgColornew(){
   let boxWork = document.querySelectorAll(".box-sample-work").forEach((i) => {
     i.style.backgroundColor = randomColor[Math.floor(Math.random()*randomColor.length)];
   });
-
-  // let boxWork = document.querySelectorAll(".box-sample-work");
-  // let randomColor = new Array("#7935f8", "#EEA1B3", "#CAEB91");
-
-  // for(let i = 0; i < boxWork.length; i++) {
-  //   boxWork[i].style.backgroundColor = randomColor[Math.floor(Math.random()*randomColor.length)];
-  // }
 };
 bgColornew();
 // End random sample work backgroundColor ---------------
@@ -182,6 +175,9 @@ function partnerSlider() {
           slidesPerView: 2,
           spaceBetween: 0,
           allowTouchMove: true,
+          grid: {
+            rows: 1,
+          },
         },
         // when window width is >= 480px
     
@@ -190,6 +186,9 @@ function partnerSlider() {
           spaceBetween: 0,
           allowTouchMove: true,
           slidesPerGroup: 1,
+          grid: {
+            rows: 1,
+          },
         },
         // when window width is >= 640px
         640: {
@@ -197,21 +196,97 @@ function partnerSlider() {
           spaceBetween: 0,
           allowTouchMove: true,
           slidesPerGroup: 1,
+          grid: {
+            rows: 1,
+          },
  
         },
-        901: {
-          slidesPerView: 2,
-          spaceBetween: 0,
+        900: {
+          slidesPerView: 5,
+          spaceBetween:0,
           allowTouchMove: false,
+          grid: {
+            rows: 1,
+          },
         },
         
         1151: {
           slidesPerView: 5,
           spaceBetween: 0,
           allowTouchMove: false,
+          grid: {
+            rows: 1,
+          },
         }
       }
   });
 }
 partnerSlider();
 // End Our Partner ---------------------------
+
+
+
+function sipeerBlog(){
+  const swiper = new Swiper('.Swiper-blog', {
+    // Optional parameters
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: false,
+    },
+ 
+    direction: 'horizontal',
+    // loop: true,
+    slidesPerView:1,
+ 
+      // Responsive breakpoints
+      breakpoints: {
+
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 15,
+          allowTouchMove: true,
+        },
+        // when window width is >= 480px
+    
+        499:{
+          slidesPerView: 1,
+          spaceBetween: 15,
+          allowTouchMove: true,
+          slidesPerGroup: 1,
+        },
+        // when window width is >= 640px
+        600: {
+          slidesPerView: 1.5,
+          spaceBetween: 15,
+          allowTouchMove: true,
+          slidesPerGroup: 1,
+ 
+        },
+        806: {
+          slidesPerView: 2.5,
+          spaceBetween: 15,
+          allowTouchMove: true,
+ 
+        },
+        950: {
+          slidesPerView: 3,
+          spaceBetween: 15,
+          allowTouchMove: false,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        },
+        
+        1151: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          allowTouchMove: false,
+        }
+      }
+  });
+
+}
+
+sipeerBlog()

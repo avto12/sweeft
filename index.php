@@ -127,7 +127,7 @@
          <h2>SAMPLE WORK</h2>
       </div>
       <div class="row column-box"> 
-         <div class="col-md-4 col-lg-4">
+         <div class="col-md-4 col-lg-4 py-2">
             <a href="https://sweeftdigital.com/OurWork/Details/6" class="box-sample-work" target="_blank"> 
                <img src="./img/work-1.png" class="card-img-top" alt="Ventis Pay">
                <div class="body-box-card">
@@ -136,7 +136,7 @@
             </a>
          </div>
 
-         <div class="col-md-4 col-lg-4">
+         <div class="col-md-4 col-lg-4 py-2">
             <a href="https://sweeftdigital.com/OurWork/Details/15" class="box-sample-work second-box" target="_blank"> 
                <img src="./img/work-2.png" class="card-img-top" alt="Nutri Heroes">
                <div class="body-box-card">
@@ -145,7 +145,7 @@
             </a>
          </div>
 
-         <div class="col-md-4 col-lg-4">
+         <div class="col-md-4 col-lg-4 py-2">
             <a href="https://sweeftdigital.com/OurWork/Details/14" class="box-sample-work" target="_blank"> 
                <img src="./img/work-3.png" class="card-img-top" alt="Extra">
                <div class="body-box-card">
@@ -282,24 +282,122 @@
 <!----------------- End Our Partner -------------->
 
 
-<!------------------ Start BLOG  ------------------->
-<section class="blog-column">
+<!------------------ Start BLOG  ---------------------------->
+
+<!---- Start section First min-width 1201px ---->
+<section class="blog-column-first">
    <div class="container">
       <div class="title-blogs">
          <h2>blog</h2>
          <p>Company Updates & staff articles</p>
       </div>
+   </div>
+
+   <div class="container-fluid blog-container"> 
+      <div class="Swiper-blog">
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide start-blog-slider">
+               <a href="#"> 
+                  <div class="card card-blog">
+                     <img src="./img/blog-1.png" class="card-img-top" alt="...">
+                     <div class="card-body blog-body">
+                        <h5 class="card-title">
+                           Method #1  how to host your static website on aws
+                        </h5>
+                        <p class="card-text">
+                           <small class="text-muted">
+                              22 Jul 2022
+                           </small>
+                        </p>
+                     </div>
+                  </div>
+               </a> 
+            </div>
+ 
+            <div class="swiper-slide start-blog-slider"> 
+               <a href="#"> 
+                  <div class="card card-blog">
+                     <img src="./img/blog-2.png" class="card-img-top" alt="...">
+                     <div class="card-body blog-body">
+                        <h5 class="card-title">
+                           Interview with Shota - UI/UX Designer
+                        </h5>
+                        <p class="card-text">
+                           <small class="text-muted">
+                           21 Apr 2022
+                           </small>
+                        </p>
+                     </div>
+                  </div>
+               </a>
+            </div>
+
+            <div class="swiper-slide start-blog-slider"> 
+               <a href="#"> 
+                  <div class="card card-blog">
+                     <img src="./img/blog-3.png" class="card-img-top" alt="...">
+                     <div class="card-body blog-body">
+                        <h5 class="card-title">
+                           Why your Product Owner should share ownership
+                        </h5>
+                        <p class="card-text">
+                           <small class="text-muted">
+                           03 Aug 2021
+                           </small>
+                        </p>
+                     </div>
+                  </div>
+               </a>
+            </div>
+
+         </div>
+         <div class="pagination-blog">
+            <div class="swiper-pagination"></div>
+         </div>
+      </div>
+ 
+   </div>
+
+   <div class="btn-readmore"> 
+      <a href="https://sweeftdigital.com/Blogs" target="_blank">
+         <div class="link-read btn-stores more-btn">
+            <span class="get-ling">More Stories</span>   
+         </div>
+      </a>
+   </div>
+
+</section>
+<!---- End section First min-width 1201px ---->
 
 
-      <div class="card-group">
-         <div class="row"> 
-            <div class="col-md-4 col-lg-4 sdss"> 
-               <div class="card card-blog h-100">
+<!---- Start section Second max-width 1201px ----->
+<section class="blog-column-second">
+   <div class="container">
+      <div class="title-blogs">
+         <h2>blog</h2>
+         <p>Company Updates & staff articles</p>
+      </div>
+   </div>
+
+   <div class="container-fluid blog-container"> 
+      <div class="Swiper-blog">
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide start-blog-slider">
+               <div class="card card-blog">
                   <img src="./img/blog-1.png" class="card-img-top" alt="...">
                   <div class="card-body blog-body">
-                     <h5 class="card-title">
-                        Method #1  how to host your static website on aws
-                     </h5>
+                     <div class="box-card-container"> 
+                        <h5 class="card-title">
+                           Method #1  how to host your static website on aws
+                        </h5>
+                        <div class="read-more-icon"> 
+                           <a href="#">
+                              <img src="./img/icons/Blog-Right-Chevron.svg" alt="">
+                           </a>
+                        </div>
+                     </div>
                      <p class="card-text">
                         <small class="text-muted">
                            22 Jul 2022
@@ -308,29 +406,44 @@
                   </div>
                </div>
             </div>
-            <div class="col-md-4 col-lg-4"> 
-               <div class="card card-blog h-100">
+
+            <div class="swiper-slide start-blog-slider">
+               <div class="card card-blog">
                   <img src="./img/blog-2.png" class="card-img-top" alt="...">
                   <div class="card-body blog-body">
-                     <h5 class="card-title">
+                     <div class="box-card-container"> 
+                        <h5 class="card-title">
                         Interview with Shota - UI/UX Designer
-                     </h5>
+                        </h5>
+                        <div class="read-more-icon"> 
+                           <a href="#">
+                              <img src="./img/icons/Blog-Right-Chevron.svg" alt="">
+                           </a>
+                        </div>
+                     </div>
                      <p class="card-text">
                         <small class="text-muted">
-                        21 Apr 2022
+                           21 Apr 2022
                         </small>
                      </p>
                   </div>
                </div>
             </div>
 
-            <div class="col-md-4 col-lg-4"> 
-               <div class="card card-blog h-100">
+            <div class="swiper-slide start-blog-slider">
+               <div class="card card-blog">
                   <img src="./img/blog-3.png" class="card-img-top" alt="...">
                   <div class="card-body blog-body">
-                     <h5 class="card-title">
-                        Why your Product Owner should share ownership
-                     </h5>
+                     <div class="box-card-container"> 
+                        <h5 class="card-title">
+                           Why your Product Owner should share ownership
+                        </h5>
+                        <div class="read-more-icon"> 
+                           <a href="#">
+                              <img src="./img/icons/Blog-Right-Chevron.svg" alt="">
+                           </a>
+                        </div>
+                     </div>
                      <p class="card-text">
                         <small class="text-muted">
                         03 Aug 2021
@@ -339,24 +452,30 @@
                   </div>
                </div>
             </div>
-
+ 
+         </div>
+         <div class="pagination-blog">
+            <div class="swiper-pagination"></div>
          </div>
       </div>
-
-      <div class="mode-blog-store">
-         <a href="#">More Stories</a>
-      </div>
+ 
    </div>
+
+   <div class="btn-readmore"> 
+      <a href="https://sweeftdigital.com/Blogs" target="_blank">
+         <div class="link-read btn-stores more-btn">
+            <span class="get-ling">More Stories</span>   
+         </div>
+      </a>
+   </div>
+
 </section>
+<!--- End section Second max-width 1201px ---->
+<!-------------------------- End BLOG  -------------------------->
 
 
-
-
-<!------------------ End BLOG  ------------------->
-
-
-<!-------------- Start Footer  ----------------->
-<footer>
+<!-------------- Start Footer  --------------------------->
+<footer class="start-footer">
     <div class="container">
         <?php include("footer.php")?>
     </div>
